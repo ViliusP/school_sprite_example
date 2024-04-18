@@ -1,0 +1,71 @@
+# Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.pygame_school/
+
+# PyGame specific files that shouldn't be uploaded
+*.pygame-saves
+
+# OS generated files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+desktop.ini # Windows specific
+
+# IDE specific files
+# For Visual Studio Code
+.vscode/
+
+# For PyCharm/IntelliJ
+.idea/
+
+# For Sublime Text
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python distribution artifacts
+/dist/
+/build/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
